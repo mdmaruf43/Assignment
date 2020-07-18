@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.select-box--box {
+    width: 288px;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    overflow: vissible;
+}
+
+.select-box--box-tow {
+    width: 288px;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    overflow: vissible;
+}
+
+.select-box--container {
+    background: #fff;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #8a8a8a;
+    font-weight: 500;
+    height: 50px;
+    width: 100%; 
+}
+
+.select-box--selected-item {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.select-box--items div {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background: #fff;
+    color: #8a8a8a;
+    margin-right: 12px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+.select-box--items div:hover {
+    background-color: #e0ecd3;
+    color: #fff;
+}
+
+
+.select-box--arrow {
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    margin-right: 7px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.select-box--arrow-two {
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 2px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.select-box--arrow-down {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 9px solid #8a8a8a;
+}
+
+.select-box--arrow-up {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 9px solid #8a8a8a;
+}

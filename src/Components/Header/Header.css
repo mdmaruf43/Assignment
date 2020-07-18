@@ -1,0 +1,45 @@
+.navbarCustom {
+    box-shadow: 0px 1px 3px #0000001f;
+}
+
+#headerSubmitBtn {
+    background-color: #fff;
+    color: #818181;
+    margin-top: 5px;
+    width: 123px;
+    height: 34px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #818181;
+}
+
+#headerSubmitBtn:hover {
+    background-color: #ECF0F1;
+}
+
+#headerJoinBtn {
+    width: 94px;
+    height: 34px;
+    background-color: #E17800;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+#headerJoinBtn:hover {
+    background-color: #D18126;
+}
+
+#text-color {
+    font-size: 15px;
+    color: #818181;
+    font-weight: 500;
+}
+
+#text-color:hover {
+    color: #1C1C1C;
+}

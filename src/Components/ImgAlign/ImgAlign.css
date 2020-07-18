@@ -1,0 +1,72 @@
+.imgComponentMove {
+    width: 1280px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+#imgAlignMove {
+    margin-bottom: 16px;
+}
+
+.marginLeftMiddleImg {
+    margin-left: 16px;
+}
+
+.marginLeftLastImg {
+    margin-left: 16px;
+}
+
+.textOverImg {
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+
+.topLeft {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.imgReSi {
+    width: 60px;
+    height: 60px;
+}
+
+.marginBottom {
+    margin-bottom: 15px;
+}
+
+.pMarginLeft {
+    margin-left: 16px;
+}
+
+.middleLog {
+    position: relative;
+}
+
+.textBig {
+    font-size: 24px;
+}
+
+.img1 {
+    width: 415px;
+    height: 547px;
+}
+.featureImg {
+    width: 415px;
+    width: 611px;
+}
+
+@media (min-width: 768px) {
+    .imgComponentMove {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .imgComponentMove {
+        width: 100%;
+    }
+}
